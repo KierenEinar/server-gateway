@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: api-geteway
+server:
+  port: 5623
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://register-cluster01:4999/eureka, http://register-cluster02:5000/eureka, http://register-cluster03:4998/eureka,
